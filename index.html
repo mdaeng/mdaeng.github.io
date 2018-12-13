@@ -26,3 +26,9 @@ test.innerText = '➤ 누르면 펼치기'}">➤ 누르면 펼치기</span>
 
 
 </header>
+
+<a href='javascript:void(0)' onclick="this.innerHTML=(this.nextSibling.style.display=='none')?'닫기':'열기';this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'";>
+클릭하면 보여요</a>
+<DIV style='display:none'>
+감추었다가 나타나게 할 내용을 쓰세요
+</DIV>

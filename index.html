@@ -2,6 +2,7 @@
 layout: home
 author_profile: true
 ---
+<html>
 <header class="site-category"> 
   <ul> 
     {% assign pages_list = site.pages %}
@@ -33,3 +34,17 @@ test.innerText = '➤ 누르면 펼치기'}">➤ 누르면 펼치기</span>
 </DIV>
 
 </header>
+
+<body>
+
+<a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
+열기
+</a><div style="DISPLAY: none"><br/><br/>
+내용
+<br/><br/><a onclick="this.parentNode.style.display='none';" href="javascript:void(0)">
+접기
+</a></div><br/><br/>
+
+</body>
+
+<html>

@@ -3,7 +3,13 @@ layout: home
 author_profile: true
 ---
 <html>
-<header class="site-category"> 
+  <body>
+
+<a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
+ 카테고리
+</a><div style="DISPLAY: none"><br/><br/>
+
+    <header class="site-category"> 
   <ul> 
     {% assign pages_list = site.pages %}
     {% for node in pages_list %}
@@ -16,31 +22,8 @@ author_profile: true
     </li> 
     {% endif %} {% endif %} {% endfor %} 
   </ul> 
-
-<span id="test style="CURSOR: hand" onclick="if(plain.style.display=="none")
-
-{plain.style.display=''; test.innerText = '➤ 누르면 접기'} else {plain.style.display = 'none';
-
-test.innerText = '➤ 누르면 펼치기'}">➤ 누르면 펼치기</span>
-
-<div id="plain" style="display: none"><HR>여기에 내용을 입력하시면 펼쳤을 시 표시됩니다.<HR></div>
-
-
-
-<a href='javascript:void(0)' onclick="this.innerHTML=(this.nextSibling.style.display=='none')?'닫기':'열기';this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'";>
-클릭하면 보여요</a>
-<DIV style='display:none'>
-감추었다가 나타나게 할 내용을 쓰세요
-</DIV>
-
 </header>
 
-<body>
-
-<a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
-열기
-</a><div style="DISPLAY: none"><br/><br/>
-내용
 <br/><br/><a onclick="this.parentNode.style.display='none';" href="javascript:void(0)">
 접기
 </a></div><br/><br/>

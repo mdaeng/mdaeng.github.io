@@ -17,14 +17,14 @@ author_profile: true
     {% if node.layout == "category" %}
     <li>
       <a class="category-link {% if page.url == node.url %} active{% endif %}"
-         href="{{ site.baseurl }}{{ node.url }}">-{{ node.title }}
+         href="{{ site.baseurl }}{{ node.url }}">- {{ node.title }}
       </a>
     </li> 
     {% endif %} {% endif %} {% endfor %} 
   </ul> 
 </header>
 
-<br/><a onclick="this.parentNode.style.display='none';" href="javascript:void(0)">
+<a onclick="this.parentNode.style.display='none';" href="javascript:void(0)">
 접기
 </a></div>
 

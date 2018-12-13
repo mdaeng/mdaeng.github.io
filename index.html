@@ -6,7 +6,7 @@ author_profile: true
   <body>
 
 <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
- 카테고리
+ +카테고리
 </a><div style="DISPLAY: none">
 
     <header class="site-category"> 
@@ -17,7 +17,7 @@ author_profile: true
     {% if node.layout == "category" %}
     <li>
       <a class="category-link {% if page.url == node.url %} active{% endif %}"
-         href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}
+         href="{{ site.baseurl }}{{ node.url }}">-{{ node.title }}
       </a>
     </li> 
     {% endif %} {% endif %} {% endfor %} 

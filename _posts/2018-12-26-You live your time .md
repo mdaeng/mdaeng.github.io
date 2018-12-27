@@ -1,5 +1,5 @@
 ---
-category: 일상
+categories: 일상
 ---
 
 New York is 3 hours ahead of California,

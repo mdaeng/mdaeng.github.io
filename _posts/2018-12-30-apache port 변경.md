@@ -23,3 +23,6 @@ apache 2 버젼 기준으로.
     $apache2ctl configtest
     를 실행하면 apache가 실행되는 동안 문제가 되는 파일과 내용이 출력된다.
     
+[![텍스트](https://blog.naver.com/PostView.nhn?blogId=mdaengv&Redirect=View&logNo=221430649332&categoryNo=21&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=2757#)]()
+
+<img src="https://blog.naver.com/PostView.nhn?blogId=mdaengv&Redirect=View&logNo=221430649332&categoryNo=21&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=2757#" width="60%">

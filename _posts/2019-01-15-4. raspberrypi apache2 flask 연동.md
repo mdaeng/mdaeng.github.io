@@ -1,0 +1,5 @@
+---
+categories: raspberrypi
+---
+
+### raspberry pi에 apache2 flask 연동.
